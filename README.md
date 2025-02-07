@@ -10,6 +10,11 @@ This repository documents my journey in learning frontend development, covering 
    - **📂 Chapters:**
      1. 🏗️ Basic Types , Arrays , Tuples
 
+### 1. **⚡ Tailwind CSS**
+   - **📖 Introduction:** 
+   - **📂 Chapters:**
+     1. 🏗️ Introduction to Tailwind CSS 
+
 ## 📌 How to Use This Repository
 - 📜 Each chapter contains well-documented notes and example projects.
 - 🛠️ Follow the examples, modify code snippets, and experiment to reinforce learning.

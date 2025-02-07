@@ -18,12 +18,6 @@ Welcome to your Tailwind CSS learning adventure! This chapter sets the stage for
 
 * 🧭 **Navigating the Documentation:** The Tailwind documentation is your treasure map - we'll equip you with the skills to find exactly what you need.
 
-* 💪 **Project - A Tailwind Hero:** Time to put your knowledge into action!  You'll find all the code for our hero section in this chapter's directory. 
-
-## 📂  Where to Find the Code
-
-All the code for this chapter's examples and the hero project is located in the `./codes/chapter-1` directory. Open up the files in your code editor as we go through the chapter to follow along and experiment.
-
 ## 🚀 Key Takeaways
 
 * Tailwind CSS is built on the idea of utility-first CSS, which means styling is done by directly applying pre-defined CSS classes to your HTML elements.
