@@ -8,9 +8,7 @@ This repository documents my journey in learning frontend development, covering 
 ### 1. **⚡ TypeScript (TS)**
    - **📖 Introduction:** A statically typed extension of JavaScript that enhances code maintainability and reliability.
    - **📂 Chapters:**
-     1. 🏗️ TypeScript Basics
-     2. 📑 Interfaces & Types
-     3. 🚀 Advanced TypeScript Features
+     1. 🏗️ Basic Types , Arrays , Tuples
 
 ## 📌 How to Use This Repository
 - 📜 Each chapter contains well-documented notes and example projects.
