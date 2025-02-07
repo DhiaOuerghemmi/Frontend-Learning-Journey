@@ -40,9 +40,33 @@ console.log("Updated Numbers:"+ numbers)
    Iterating Over Arrays
    ============================ */
 
-// Using foreach loop to iterate and process each element
-let num:number
-let index:number = 0
-numbers.forEach(num,index){
-    console.log(`numbers[${index}] * 2 =`, num * 2)
-}
+// Using forEach to iterate and process each element
+numbers.forEach((num, index) => {
+   console.log(`numbers[${index}] * 2 =`, num * 2);
+ });
+ 
+ // Using map to create a new array of doubled values
+ let doubledNumbers: number[] = numbers.map(num => num * 2);
+ console.log("Doubled numbers:", doubledNumbers);
+ 
+ /* ============================
+    Using Other Array Methods
+    ============================ */
+ 
+ // Filtering numbers greater than 3
+ let filteredNumbers: number[] = numbers.filter(num => num > 3);
+ console.log("Filtered numbers (greater than 3):", filteredNumbers);
+ 
+ // Reducing the array to a single value (sum)
+ let sumOfNumbers: number = numbers.reduce((acc, curr) => acc + curr, 0);
+ console.log("Sum of numbers:", sumOfNumbers);
+ 
+ // Demonstrating immutability: map and filter do not modify the original array
+ console.log("Original numbers remain unchanged:", numbers);
+ 
+ /* ============================
+    Summary
+    ============================
+    Arrays in TypeScript are a powerful and type-safe way to manage collections of data.
+    Use explicit type annotations to ensure that the array contains only the intended type.
+ */
