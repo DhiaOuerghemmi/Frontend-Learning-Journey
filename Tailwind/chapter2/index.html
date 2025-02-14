@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tailwind CSS Chapter 2: Utility & Customization Demo</title>
+  <!-- Tailwind CSS CDN for quick prototyping -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom styles via Tailwind configuration can be simulated here */
+    /* Example: If you extended your color palette in tailwind.config.js */
+    .bg-custom-blue { background-color: #1e40af; } /* This is just a sample custom class */
+  </style>
+</head>
+<body class="bg-gray-100 p-6">
+  <div class="max-w-xl mx-auto">
+    <h1 class="text-3xl font-bold mb-4">Tailwind CSS Chapter 2 Demo</h1>
+    <p class="mb-6 text-gray-700">
+      This demo showcases the use of utility classes and a custom style (simulating a customized Tailwind config).
+    </p>
+
+    <!-- Example of using utility classes -->
+    <button class="bg-custom-blue text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-200">
+      Custom Button
+    </button>
+
+    <div class="mt-8">
+      <p class="text-lg font-medium">Responsive Padding Example:</p>
+      <div class="bg-white p-4 sm:p-6 md:p-8 border rounded shadow">
+        Resize the browser to see the padding change!
+      </div>
+    </div>
+  </div>
+</body>
+</html>
