@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tailwind CSS Chapter 4: Component Design & Interactive States</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom animation class for demonstration */
+    @keyframes bounceIn {
+      0% { transform: scale(0.8); opacity: 0; }
+      60% { transform: scale(1.05); opacity: 1; }
+      100% { transform: scale(1); }
+    }
+    .animate-bounce-in {
+      animation: bounceIn 0.5s ease-out forwards;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 p-8">
+  <div class="max-w-md mx-auto">
+    <h1 class="text-3xl font-bold mb-6">Interactive Component Demo</h1>
+    <!-- Example of a reusable button component -->
+    <button class="w-full bg-blue-500 text-white py-3 rounded-lg shadow hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-300 animate-bounce-in">
+      Click Me
+    </button>
+    <p class="mt-4 text-gray-600">Hover, focus, and active states are managed by Tailwind CSS utilities.</p>
+  </div>
+</body>
+</html>

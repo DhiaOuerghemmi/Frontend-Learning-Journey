@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tailwind CSS Chapter 5: Advanced Theming & Plugin Integration</title>
+  <!-- Tailwind CSS CDN with dark mode enabled -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#1E3A8A',
+            secondary: '#10B981'
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif']
+          }
+        }
+      },
+      plugins: [
+        // Example plugin: Tailwind CSS Forms (assuming it's included in your build process)
+      ]
+    }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 p-8">
+  <div class="max-w-lg mx-auto">
+    <h1 class="text-3xl font-bold mb-6">Advanced Theming & Plugin Integration</h1>
+    <p class="mb-4 text-gray-700">This demo showcases a custom theme with dark mode support and extended colors.</p>
+    <!-- A sample card component with dark mode support -->
+    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+      <h2 class="text-2xl font-semibold mb-2 text-primary dark:text-secondary">Themed Card</h2>
+      <p class="text-gray-600 dark:text-gray-300">This card adapts to light and dark modes using advanced theming techniques in Tailwind CSS.</p>
+    </div>
+    <button id="toggleDark" class="mt-6 bg-secondary text-white py-2 px-4 rounded">Toggle Dark Mode</button>
+  </div>
+  <script>
+    // Simple dark mode toggle
+    document.getElementById('toggleDark').addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+    });
+  </script>
+</body>
+</html>
