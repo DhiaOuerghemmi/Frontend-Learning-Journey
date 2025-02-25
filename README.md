@@ -6,7 +6,7 @@ This repository documents my journey in learning frontend development, covering 
 
 ## 🔥 Technologies & Frameworks Covered
 
-### 1. **⚡ TypeScript (TS) **
+### 1. **⚡ TypeScript (TS)**
 
 - **📂 Chapters:**
   1.  🏗️ Basic Types , Arrays , Tuples
@@ -14,7 +14,7 @@ This repository documents my journey in learning frontend development, covering 
   3.  Advanced Types: Union, Intersection, and Generics
   4.  Utility Types & Advanced Type Manipulations
 
-### 2. **⚡ Tailwind CSS **
+### 2. **⚡ Tailwind CSS**
 
 - **📂 Chapters:**
   1.  🏗️ Introduction to Tailwind CSS
